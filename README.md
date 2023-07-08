@@ -59,7 +59,7 @@ The relationship between image and container is similar to the relation between 
   data volume is used by docker to persist and exchange data.
   Data volume is one directory or file in the host computer. When the directory in container is binded with the directory in host directory, update on data on one side can synchronously update the other. One data volume can be mounted by many containers. One container can also mount many data volumes.<br>
   <b>realize mounting:</b><br>
-  docker run -it --name=c1 -v /Users/mengjiayu/Desktop/docker:/root/data_container centos:7 /bin/bash
+  docker run -it --name=c1 -v /Users/merve/Desktop/docker:/root/data_container centos:7 /bin/bash
   
   <h3>Deployment</h3>
   Problems:
